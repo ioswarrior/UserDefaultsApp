@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  UserDefaultApp
-//
-//  Created by Stronk on 10.03.2020.
-//  Copyright © 2020 Practice. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

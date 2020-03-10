@@ -13,6 +13,9 @@
 		F74198EB2417E18A00004421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74198E92417E18A00004421 /* Main.storyboard */; };
 		F74198ED2417E19600004421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74198EC2417E19600004421 /* Assets.xcassets */; };
 		F74198F02417E19600004421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74198EE2417E19600004421 /* LaunchScreen.storyboard */; };
+		F74198F82417ED2200004421 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74198F72417ED2200004421 /* NameViewController.swift */; };
+		F74198FA2417F45E00004421 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74198F92417F45E00004421 /* Model.swift */; };
+		F74198FC2417F79900004421 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F74198FB2417F79800004421 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F74198EC2417E19600004421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74198EF2417E19600004421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74198F12417E19600004421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74198F72417ED2200004421 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		F74198F92417F45E00004421 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F74198FB2417F79800004421 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		F74198E22417E18A00004421 /* UserDefaultApp */ = {
 			isa = PBXGroup;
 			children = (
+				F74198FB2417F79800004421 /* .gitignore */,
 				F74198E32417E18A00004421 /* AppDelegate.swift */,
 				F74198E52417E18A00004421 /* SceneDelegate.swift */,
 				F74198E72417E18A00004421 /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				F74198EC2417E19600004421 /* Assets.xcassets */,
 				F74198EE2417E19600004421 /* LaunchScreen.storyboard */,
 				F74198F12417E19600004421 /* Info.plist */,
+				F74198F72417ED2200004421 /* NameViewController.swift */,
+				F74198F92417F45E00004421 /* Model.swift */,
 			);
 			path = UserDefaultApp;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74198FC2417F79900004421 /* .gitignore in Resources */,
 				F74198F02417E19600004421 /* LaunchScreen.storyboard in Resources */,
 				F74198ED2417E19600004421 /* Assets.xcassets in Resources */,
 				F74198EB2417E18A00004421 /* Main.storyboard in Resources */,
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74198FA2417F45E00004421 /* Model.swift in Sources */,
 				F74198E82417E18A00004421 /* ViewController.swift in Sources */,
 				F74198E42417E18A00004421 /* AppDelegate.swift in Sources */,
 				F74198E62417E18A00004421 /* SceneDelegate.swift in Sources */,
+				F74198F82417ED2200004421 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.UserDefaultApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.UserDefaultApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
